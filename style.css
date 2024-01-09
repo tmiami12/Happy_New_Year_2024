@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+#home{
+    width: 100%;
+    height: 70vh;
+    border-radius: 16px;
+    background:  linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('img/Banner Image.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 80px;
+}
+#home .warp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffff;
+    font-size: 23px;
+    text-align: center;
+}
+#home .warp h2{
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.discount{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.discount h1{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+}
+.discount p{
+    color: #F00;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.discount h4{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.discount img{
+    width: 80%;
+    height: auto;
+}
+
+.welcome{
+    width: 100%;
+    height: 70vh;
+    border-radius: 16px;
+    background:  linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('img/Vectorrr.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 80px;
+    position: relative;
+    color: #fff;
+}
+.welcome .warp{
+    float: left;
+    width: 60%;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+}
+.welcome h2{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+.welcome p{
+    width: 70%;
+    margin: 20px 0;
+}
+.welcome a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.welcome .col-4{
+    float: right;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+}
+.welcome .col-4 img{
+    width: 80%;
+}
+
+.join{
+    width: 100%;
+    height: 55vh;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 30px;
+    line-height: 50px;
+}
+.join p span{
+    color: red;
+}
+.join a{
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    padding: 8px 35px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.offer{
+    width: 100%;
+    height: 70vh;
+}
+.offer .col-1{
+    float: left;
+    width: 40%;
+    margin-top: 20px;
+}
+.offer .col-1 h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.offer .col-1 h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.offer .col-1 p{
+    width: 60%;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+}
+.offer .col-1 .img-box{
+    width: 300px;
+    height: 300px;
+    border: 10px solid red;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-left: -40px;
+    padding: 25px;
+}
+.offer .img-box img{
+    width: 100%;
+}
+.offer .col-2{
+    width: 20%;
+    float: right;
+}
+.offer .col-2 h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.offer .col-2 p{
+    width: 80%;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; margin-bottom: 15px;
+}
+.testimonial{
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+}
+.testimonial .title{
+    text-align: center;
+}
+.testimonial .title h5{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.testimonial .title h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 15px 0;
+}
+.testimonial .title h1 span{
+    color: red;
+}
+.testimonial .title p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+    width: 70%;
+    margin: auto;
+}
+.testimonial .img-part{
+    position: relative;
+    height: 70vh;
+}
+.testimonial .img-part .img-1{
+    width: 40%;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    z-index: 3;
+}
+.testimonial .img-part .img-2{
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+.testimonial .img-part .img-3{
+    position: absolute;
+    bottom: 0;
+    left: 4%;
+    z-index: 2;
+}
+.testimonial .img-part .img-4{
+    position: absolute;
+    right: 20%;
+    z-index: 4;
+}
+
+.portifolio{
+    width: 100%;
+    height: 150vh;
+    margin-bottom: 80px;
+}
+.portifolio h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.portifolio h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+.portifolio p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    width: 50%;
+}
+.portifolio .row{
+    display: block;
+    margin-top: 20px;
+}
+.portifolio .col-1{
+    width: 33%;
+    padding-left: 15px;
+    float: left;
+}
+.portifolio .col-1 img{
+    width: 95%;
+    margin-top: 20px;
+}
+.news{
+    width: 100%;
+    height: 55vh;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 30px;
+    line-height: 50px;
+}
+.news .warp{
+    padding: 30px;
+}
+.news img{
+    margin-top: 15px;
+}
+.news h1{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.news p{
+    width: 60%;
+    margin: auto;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.news input{
+    outline: none;
+    border: none;
+    background: #fff;
+    height: 45px;
+    border: 1px solid #999;
+    padding: 5px 20px;
+    margin-top: 20px;
+}
+.news input[type="submit"]{
+    background: red;
+    color: #fff;
+}
+
+.footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+}
+
+.foot-1{
+    display: block;
+}
+.foot-1 .col-1{
+    width: 20%;
+    float: left;
+}
+.foot-1 .col-2{
+    width: 20%;
+    float: right;
+}
+.foot-1 .col-3{
+    width: 60%;
+    float: left;
+}
+.foot-1 i{
+    color: #fff;
+}
+.foot-2{
+    width: 100%;
+    display: block;
+    margin-top: 80px;
+    margin-left: 40%;
+}
+.foot-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
